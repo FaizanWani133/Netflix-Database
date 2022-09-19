@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+#inputContainer{
+    
+    background-color: rgb(20, 20, 20,0.97);
+    width: 100%;
+    top: 0;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    
+    
+    /* padding: 20px; */
+    z-index: 3;
+    padding-top: 20px;
+}
+
+#inputContainer>form{ 
+   display: flex;
+   flex-wrap: wrap;
+   /* margin-left: auto; */
+   /* margin-right: 30%; */
+   align-items: flex-end;
+   margin-bottom: 8px;
+   /* margin-bottom: 18px; */
+   width: 40%;
+   margin-right: 10px;
+   
+   
+  
+}
+
+
+
+
+
+
+#movieCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px; 
+    margin-top: 200px;  
+    margin-bottom: 50px;
+}
+#hover-box{
+    width: 150px;
+    
+    
+   
+}
+#hover-box:hover{
+    transform: scale(1.1);
+        box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+       
+        
+        
+        /* z-index: 3; */
+        
+        
+}
+
+
+#input{
+    padding: 10px;
+    width: 30vw;
+      
+}
+#submitBtn{
+    padding: 10px 15px;
+   
+    
+}
+#submitBtn:hover{
+    background-color: rgb(134, 133, 133);
+}
+
+#movieCard2{
+    left: 0;
+    position: absolute;
+    top: 0;
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 20px;
+    z-index: 1;
+   
+   
+      
+}
+#movieCard2>p:first-child{
+    font-weight: bolder;
+   
+    font-size: 10px;
+   
+
+}
+#movieCard2>p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 8px;
+    
+   
+}
+#recommended{
+    position: relative;
+    
+}
+#recommended>div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    
+   font-size: 8px;
+    background-color: #e50f14;
+    width: 30px;
+   
+   
+    text-align: center;
+    padding: 5px;
+    color: white;
+    
+    
+  
+  
+}
+
+#oops{
+    color: white;
+    
+    
+}
+#appendhere{
+    position: absolute;
+    top: 100%;
+   
+    width: 100%;
+  
+   font-size: 18px;
+   background-color: rgb(255, 255, 255);
+   overflow-x: hidden;
+   overflow-y: auto;
+   height: auto
+  
+  
+   
+   
+  
+    
+    
+    
+}
+
+#inputBox{
+    position: relative;
+    
+    
+    
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    
+   
+    object-fit: fill;
+}
+#dropBtn{
+     
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-color: rgba(0, 0, 0, 0.1);  
+}
+
+
+  #dropBtn:hover{
+    background-color: #e9e9e9;
+    cursor: pointer;
+  }
+  #links{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 15%;
+    gap: 10px;
+   
+   
+    
+  }
+  #links>a{
+    text-decoration: none;
+    color: #dee5d0
+   
+  }
+  #links>a:hover{
+    color: #E50914  ;
+
+  }
+
+
+  @media only screen and (max-width: 530px){
+#links{
+    flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+  }
+  h1,h2{
+    text-align: center;
+  }
+  #carosal{
+   width: 60%;
+   
+  }
+  a{
+    cursor: pointer;
+  }
+  #popularImg{
+    width: 150px;
+  }
+  #carousalDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+  }
+ 
